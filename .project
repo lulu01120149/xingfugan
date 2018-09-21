@@ -6,6 +6,7 @@
 	</projects>
 	<buildSpec>
 		<buildCommand>
+
 			<name>com.aptana.ide.core.unifiedBuilder</name>
 			<arguments>
 			</arguments>
@@ -13,10 +14,7 @@
 	</buildSpec>
 	<natures>
 		<nature>com.aptana.projects.webnature</nature>
-	</natures>
-	<filteredResources>
-		<filter>
-			<id>1537513990919</id>
+
 			<name></name>
 			<type>26</type>
 			<matcher>
