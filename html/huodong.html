@@ -4,16 +4,105 @@
 		<meta charset="UTF-8">
 		<title>员工活动</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-		<link rel="stylesheet" href="css/reset.css" />
-		<link rel="stylesheet" href="css/huodong.css" />
+		<link rel="stylesheet" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/bootstrap.css" />
+		<link rel="stylesheet" href="../css/huodong.css" />
 	</head>
 	<body>
+		<div class="kch_nav">
+	        <div class="kch_nav_cont">
+	            <div class="kch_nav_logo">
+	                <a href="#"><img id="companylogo" src="../images/logo-black-mobile.png"></a>
+	               <div class="pad-trigger"></div>
+	            </div>
+	            <div class="kch_nav_menu">
+	                <ul>
+	                    <li id="Header1_index"><a href="index.html">首页</a>
+	                    <li id="Header1_about"><a href="jieshao.html">公司介绍</a>
+	                    <li id="Header1_bonus"><a href="fuli.html">公司福利</a>
+	                    <li id="Header1_culture"><a href="wenhua.html">公司文化</a>
+						<li id="Header1_interview"><a href="caifang.html">员工采访</a>
+						<li id="Header1_activities" class="active"><a href="huodong.html">员工活动</a>
+	                    <li id="Header1_joinus"><a href="women.html">加入我们</a>
+	                </ul>
+	            </div>
+	        </div>
+	    </div>
 		<div class="container-fluid marginTop">
 			<div class="row">
-				
+				<div class="col-lg-12" style="padding:0;">
+					<img src="../images/huodong.png" alt="" style="width:100%"/>
+				</div>
+			</div>
+			<div class="row huodong">
+				<ul class="lis1"></ul>
+				<ul class="lis2"></ul>
+				<ul class="lis3"></ul>
+				<ul class="lis4"></ul>
+				<ul class="lis5"></ul>
+				<ul class="lis6"></ul>
+				<ul class="lis7"></ul>
+				<ul class="lis8"></ul>
+				<script type="text/template" id="template">
+					<li class="col-lg-8 col-lg-offset-2">
+						<div class="row">
+							<div class="col-lg-4">
+								<img src="@picture@" class="img-responsive"/>
+							</div>
+							<div class="col-lg-8">
+								<h6>@title@</h6>
+								<p>@content@</p>
+							</div>
+							<div class="hd-bottom">
+								<span>@time@</span>
+								<span>
+									<a href="#">查看详情>></a>
+								</span>
+							</div>
+						</div>
+					</li>
+				</script>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<div id="pager">
+						<a href="#" class="shouye" style="margin-right:5px;">首页</a>
+						<a href="#" class="prev" style="margin-right:5px;">上一页</a>
+						<a href="#" class="num first" style="margin-right:5px;">1</a>
+						<a href="#" class="num" style="margin-right:5px;">2</a>
+						<a href="#" class="num" style="margin-right:5px;">3</a>
+						<a href="#" class="num" style="margin-right:5px;">4</a>
+						<a href="#" class="num" style="margin-right:5px;">5</a>
+						<a href="#" class="num" style="margin-right:5px;">6</a>
+						<a href="#" class="num" style="margin-right:5px;">7</a>
+						<a href="#" class="num" style="margin-right:5px;">8</a>
+						<a href="#" class="next" style="margin-right:5px;">下一页</a>
+						<a href="#" class="last" style="margin-right:5px;">尾页</a>
+					</div>
+				</div>
 			</div>
 		</div>
+		<div class="row bom">
+			<div class="col-lg-6 bom_left">
+				<img src="../images/logo-bottom.png" alt="" />
+			</div>
+			
+			<div class="col-lg-6 bom_right">
+				<img src="../images/qrcode.jpg" alt="" />
+			</div>
+		</div>
+		
+		
+		<div class="row boms">
+			<div class="col-lg-12 text-center yangshi">
+				<a href="#" target="_blank" style="color: #666;">青岛幸福感网络科技有限公司 
+            <br>
+            Qingdao xingfugan network technology Co., Ltd.</a>
+			</div>
+		</div>
+
 	</body>
 </html>
-<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
-<script type="text/javascript" src="js/huodong.js"></script>
+<script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="../js/bootstrap.js"></script>
+<script type="text/javascript" src="../js/huodong.js"></script>
