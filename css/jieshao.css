@@ -548,11 +548,29 @@ body,html{
 	color: #666666;
 }
 /*底部结束*/
+@media (max-width: 1200px) and (min-width: 550px){
+	.kch_nav .kch_nav_cont .kch_nav_menu{
+		display: none;
+	}
+}
 @media (max-width: 1200px){
-	.indexP,.indexZ,.indexJ,.indexM,.indexO,.indexW,.indexF{
+	.kch_nav,.indexP,.indexZ,.indexJ,.indexM,.indexO,.indexW,.indexF{
 		width: 100%;
 	}
-	.indexP img{
+	.kch_nav{
+		height: 55px;
+	}
+	.kch_nav .kch_nav_cont{
+		height: 55px;
+	}
+	.indexP{
+		height: auto;
+	}
+	.indexP .imgs{
+		width: 100%;
+		height: auto;
+	}
+	.indexP .imgs img{
 		width: 100%;
 		height: auto;
 	}
@@ -615,7 +633,7 @@ body,html{
 		height: 403px;
 	}
 	.indexW{
-		height: 644px;
+		height: 744px;
 	}
 	.indexW .us{
 		width: 100%;
