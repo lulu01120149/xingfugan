@@ -2,18 +2,12 @@
 	margin:0;
 	padding:0;
 }
-body{
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
-    overflow-x:hidden ;
-}
+
 .kch_nav {
     position: fixed;
     top: 0px;
     width: 100%;
     z-index: 999;
-    top: 0;
     left: 0;
     right: 0;
     height: 100px;
@@ -39,6 +33,7 @@ body{
 }
 .kch_nav_logo {
     width: 100%;
+    height: 55px;
     float: left;
     position: relative;
     z-index: 1000;
@@ -81,18 +76,18 @@ body{
     display: inline;
 }
 .kch_nav_menu a {
-    color: white;
+    color: #000;
     font-size: 1.1em;
     padding: 15px 27px;
     text-decoration: none;
 }
 .active > a {
-    color: white;
-    border-bottom: 2px solid white;
+    color: #000;
+    border-bottom: 2px solid #33c3f3;
 }
 @media (max-width: 550px){
 	.kch_nav {
-	    height: 60px;
+	    height: 55px;
 	}
 }
 .pad-trigger {
@@ -121,14 +116,14 @@ body{
 	    text-align: center;
 	    right: 0;
 	    top: 55px;
-	    border: 1px solid #ccc;
+	    /*border: 1px solid #ccc;*/
 	    display: none;
 	    transition: all .8s;
 	}
 }
 @media (max-width: 550px){
-	.kch_nav_menu ul {
-	    padding-left: 0px;
+	.kch_nav_menu > ul{
+		padding-left:0px;
 	}
 }
 @media (max-width: 550px){
@@ -155,9 +150,17 @@ body{
 	    text-decoration: none;
 	}
 }
+@media (max-width: 550px)
+.kch_nav_logo > a > img {
+    height: 55px;
+    margin-left: 15px;
+    padding-top: 4px;
+    padding-bottom: 30px;
+    width: 70%;
+}
 @media (max-width: 550px){
 	.kch_nav_menu a {
-	    padding: 21px 15px;
+	    padding: 10px 15px;
 	}
 }
 
@@ -489,6 +492,29 @@ body{
 .swiper-slide img{
 	padding-top:40px;
 	width: 100%;
+}
+@media(max-width:550px){
+
+	 .swiper-slide > div {
+	 	width: 100%;
+        border-radius: 10px;
+        color: #000;
+        background-color: #fff;
+    }
+
+        .swiper-slide h4{
+        	font-size: 0.1em;
+			margin-left:5px;
+			padding-bottom: 10px;
+		}
+
+    .swiper-slide img {
+        padding-top: 10px;
+        width: 100%;
+    }
+    .swiper-button-next, .swiper-button-prev{
+    	transform: scale(0.5);
+    }
 }
 .join-us-narrow {
     font-size: 1.5em;
