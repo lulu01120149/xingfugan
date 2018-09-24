@@ -6,7 +6,6 @@
 	</projects>
 	<buildSpec>
 		<buildCommand>
-
 			<name>com.aptana.ide.core.unifiedBuilder</name>
 			<arguments>
 			</arguments>
