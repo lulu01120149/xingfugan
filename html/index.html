@@ -10,29 +10,28 @@
 		<link rel="stylesheet" href="../css/swiper-4.3.3.min.css" />
 	</head>
 	<body>
-		<div class="box">
+		<div class="box" >
 			<!--头部-->
-			<div class="nav" style="background: rgb(0,0,0);">
-				<div class="nav_con">
-					<div class="kch_nav_logo">
-						<a href="#"><img src="../images/logo.png" alt="" /></a>
-						<a href="#" class="mainMenu">
-							<i></i>
-						</a>
-					</div>
-					<div class="kch_nav_menu">
-						<ul>
-							<li class="active"><a href="#">首页</a></li>
-							<li><a href="#">公司介绍</a></li>
-							<li><a href="#">公司福利</a></li>
-							<li><a href="#">公司文化</a></li>
-							<li><a href="#">员工采访</a></li>
-							<li><a href="#">员工活动</a></li>
-							<li><a href="#">加入我们</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
+			<div class="kch_nav">
+		        <div class="kch_nav_cont">
+		            <div class="kch_nav_logo">
+		                <a href="#"><img id="companylogo" src="../images/logo-black-mobile.png"></a>
+		               <div class="pad-trigger"></div>
+		            </div>
+		            <div class="kch_nav_menu">
+		                <ul>
+		                    <li id="Header1_index"  class="active"><a href="index.html">首页</a>
+		                    <li id="Header1_about"><a href="jieshao.html">公司介绍</a>
+		                    <li id="Header1_bonus"><a href="fuli.html">公司福利</a>
+		                    <li id="Header1_culture"><a href="wenhua.html">公司文化</a>
+							<li id="Header1_interview"><a href="caifang.html">员工采访</a>
+							<li id="Header1_activities"><a href="huodong.html">员工活动</a>
+		                    <li id="Header1_joinus"><a href="women.html">加入我们</a>
+		                </ul>
+		            </div>
+		        </div>
+	    	</div>
+
 			<!--video-->
 			<div class="container-fluid">
 				<div class="row" id="row-video">
@@ -49,140 +48,176 @@
 	                    <img src="../images/indexpic.jpg" class="img-responsive" />
 	                </a>
 	            </div>
-			</div>
-			<!--公司介绍-->
-			<div class="row">
-                <div id="intro" class="col-lg-8  col-lg-offset-2">
-                    <div class="jieshao">公司介绍</div>
-                    <p class="neir">
-                        <span>青岛幸福感网络科技有限公司，</span><br />
-                        	用三个词来形容我们，<br />
-                        	那一定是幸福！会玩儿！强大！<br />
-                        	我们坚信：<br />
-                        	好产品自带流量，<br />
-                        	所以我们要做让用户尖叫的爆款；<br />
-                        	好企业自有磁场，<br />
-                        	所以我们要做最具幸福感的企业！
-                    </p>
-                    <a href="about.aspx" class="loveme">小心！你99%的可能会爱上我</a>
-                </div>
-            </div>
-			<!--创业故事-->
-			<div class="row" style="background-color: #f83c6d;">
-                <div id="gushi" class="col-lg-12" >
-                    <div class="cy">创业故事</div>
-                    <p class="bianxing">Boss变形记</p>
-                    <a class="icon" href="">
-                        <span class="glyphicon glyphicon-play-circle ind-video"></span>
-                    </a>
-                </div>
-            </div>
-			<!--员工采访-->
-			<div class="row">
-                <div id="caifang" class="col-lg-12">
-                    <div class="yuangong">员工采访</div>
-                    <p class="wom">我们的故事</p>
-                    <a href="#" class="laotie">老铁！扎心了</a>
-                </div>
-            </div>
-			<!--公司福利-->
-			<div class="row">
-                <div class="col-lg-12 gsfl">
-                    <div class="fuli">公司福利</div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="row fuli">
-                        <div id="fuli-1" class="col-lg-4 text-center">
-                            <img src="../images/f1.png" />
-                            <p>不会玩的不要</p>
-                        </div>
-                        <div id="fuli-2" class="col-lg-4  text-center">
-                            <img src="../images/f4.png" />
-                            <p>六险一金</p>
-                        </div>
-                        <div id="fuli-3" class="col-lg-4  text-center">
-                            <img src="../images/f6.png" />
-                            <p>12天带薪年假</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <div class="row fuli">
-                        <div id="fuli-4" class="col-lg-4  text-center">
-                            <img src="../images/f3.png" />
-                            <p>每天都发零花钱</p>
-                        </div>
-                        <div id="fuli-5" class="col-lg-4  text-center">
-                            <img src="../images/f5.png" />
-                            <p>零食让你吃个够</p>
-                        </div>
-                        <div id="fuli-6" class="col-lg-4  text-center">
-                            <img src="../images/f2.png" />
-                            <p>让勾心斗角见鬼去</p>
-                        </div> 
-                    </div>
-                </div>
-            </div>
-			<div class="row">
-                <div class="col-lg-12 geibul">
-                    <a href="bonus.aspx" class="laotie">只有你想不到没有我给不了</a>
-                </div>
-            </div>
-           	<!--公司文化-->
-            <div class="row">
-                <div class="col-lg-12 gswh">
-                    <div class="wenhua">公司文化</div>
-                </div>
-            </div>
-            <div class="row culture">
-                <div id="cul-1" class="col-lg-2 col-lg-offset-1 text-center">
-                    <img src="../images/c1.png" />
-                    <p>玩着把活干好</p>
-                </div>
-                <div id="cul-2" class="col-lg-2 text-center">
-                    <img src="../images/c2.png" />
-                    <p>不让雷锋吃亏</p>
-                </div>
-                <div id="cul-3" class="col-lg-2 text-center">
-                    <img src="../images/c3.png" />
-                    <p>地位比职位更重要</p>
-                </div>
-                <div id="cul-4" class="col-lg-2 text-center">
-                    <img src="../images/c4.png" />
-                    <p>不学习就掉队</p>
-                </div>
-                <div id="cul-5" class="col-lg-2 text-center">
-                    <img src="../images/c5.png" />
-                    <p>做自己的老板</p>
-                </div>
-            </div>
-			<div class="row">
-                <div class="col-lg-12 richang">
-                    <a href="bonus.aspx" class="yangzhuchang">养猪场的日常</a>
-                </div>
-            </div>
-			<!--轮播图-->
-			<div class="row huodong">
-				<div class="col-lg-12 hd">
-					<div class="yghd">员工活动</div>
-				</div>
-                    <div class="swiper-container">
+			
+				<!--公司介绍-->
+				<div class="row">
+	                <div id="intro" class="col-lg-8  col-lg-offset-2">
+	                    <div class="jieshao">公司介绍</div>
+	                    <p class="neir">
+	                        <span>青岛幸福感网络科技有限公司，</span><br />
+	                        	用三个词来形容我们，<br />
+	                        	那一定是幸福！会玩儿！强大！<br />
+	                        	我们坚信：<br />
+	                        	好产品自带流量，<br />
+	                        	所以我们要做让用户尖叫的爆款；<br />
+	                        	好企业自有磁场，<br />
+	                        	所以我们要做最具幸福感的企业！
+	                    </p>
+	                    <a href="about.aspx" class="loveme">小心！你99%的可能会爱上我</a>
+	                </div>
+	            </div>
+				<!--创业故事-->
+				<div class="row" style="background-color: #f83c6d;">
+	                <div id="gushi" class="col-lg-12" >
+	                    <div class="cy">创业故事</div>
+	                    <p class="bianxing">Boss变形记</p>
+	                    <a class="icon" href="">
+	                        <span class="glyphicon glyphicon-play-circle ind-video"></span>
+	                    </a>
+	                </div>
+	            </div>
+				<!--员工采访-->
+				<div class="row">
+	                <div id="caifang" class="col-lg-12">
+	                    <div class="yuangong">员工采访</div>
+	                    <p class="wom">我们的故事</p>
+	                    <a href="#" class="laotie">老铁！扎心了</a>
+	                </div>
+	            </div>
+				<!--公司福利-->
+				<div class="row">
+	                <div class="col-lg-12 gsfl">
+	                    <div class="fuli">公司福利</div>
+	                </div>
+	            </div>
+	            <div class="row">
+	                <div class="col-lg-8 col-lg-offset-2">
+	                    <div class="row fuli">
+	                        <div id="fuli-1" class="col-lg-4 text-center">
+	                            <img src="../images/f1.png" />
+	                            <p>不会玩的不要</p>
+	                        </div>
+	                        <div id="fuli-2" class="col-lg-4  text-center">
+	                            <img src="../images/f4.png" />
+	                            <p>六险一金</p>
+	                        </div>
+	                        <div id="fuli-3" class="col-lg-4  text-center">
+	                            <img src="../images/f6.png" />
+	                            <p>12天带薪年假</p>
+	                        </div>
+	                    </div>
+	                </div>
+            	</div>
+	            <div class="row">
+	                <div class="col-lg-8 col-lg-offset-2">
+	                    <div class="row fuli">
+	                        <div id="fuli-4" class="col-lg-4  text-center">
+	                            <img src="../images/f3.png" />
+	                            <p>每天都发零花钱</p>
+	                        </div>
+	                        <div id="fuli-5" class="col-lg-4  text-center">
+	                            <img src="../images/f5.png" />
+	                            <p>零食让你吃个够</p>
+	                        </div>
+	                        <div id="fuli-6" class="col-lg-4  text-center">
+	                            <img src="../images/f2.png" />
+	                            <p>让勾心斗角见鬼去</p>
+	                        </div> 
+	                    </div>
+	                </div>
+	            </div>
+				<div class="row">
+	                <div class="col-lg-12 geibul">
+	                    <a href="bonus.aspx" class="laotie">只有你想不到没有我给不了</a>
+	                </div>
+	            </div>
+	           	<!--公司文化-->
+	            <div class="row">
+	                <div class="col-lg-12 gswh">
+	                    <div class="wenhua">公司文化</div>
+	                </div>
+	            </div>
+	            <div class="row culture">
+	                <div id="cul-1" class="col-lg-2 col-lg-offset-1 text-center">
+	                    <img src="../images/c1.png" />
+	                    <p>玩着把活干好</p>
+	                </div>
+	                <div id="cul-2" class="col-lg-2 text-center">
+	                    <img src="../images/c2.png" />
+	                    <p>不让雷锋吃亏</p>
+	                </div>
+	                <div id="cul-3" class="col-lg-2 text-center">
+	                    <img src="../images/c3.png" />
+	                    <p>地位比职位更重要</p>
+	                </div>
+	                <div id="cul-4" class="col-lg-2 text-center">
+	                    <img src="../images/c4.png" />
+	                    <p>不学习就掉队</p>
+	                </div>
+	                <div id="cul-5" class="col-lg-2 text-center">
+	                    <img src="../images/c5.png" />
+	                    <p>做自己的老板</p>
+	                </div>
+	            </div>
+				<div class="row">
+	                <div class="col-lg-12 richang">
+	                    <a href="bonus.aspx" class="yangzhuchang">养猪场的日常</a>
+	                </div>
+	            </div>
+				<!--轮播图-->
+				<div class="row huodong">
+					<div class="col-lg-12 hd">
+						<div class="yghd">员工活动</div>
+					</div>
+	                <div class="swiper-container swiper-container-horizontal swiper-container-android" style="cursor: -webkit-grab;">
 						<div class="swiper-wrapper">
 							<div class="swiper-slide">
-								<img src="../images/01.png">
+								<div>
+									<img src="../images/04.jpg">
+									<h4>最酷的事就是爱你</h4>
+								</div>
 							</div>
 							<div class="swiper-slide">
-								<img src="../images/01.png">
+								<div>
+									<img src="../images/02.jpg">
+									<h4>最酷的事就是爱你</h4>
+								</div>
 							</div>
 							<div class="swiper-slide">
-								<img src="../images/01.png">
+								<div>
+									<img src="../images/03.jpg">
+									<h4>最酷的事就是爱你</h4>
+								</div>
 							</div>
 							<div class="swiper-slide">
-								<img src="../images/01.png">
+								<div>
+									<img src="../images/04.jpg">
+									<h4>最酷的事就是爱你</h4>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div>
+									<img src="../images/02.jpg">
+									<h4>最酷的事就是爱你</h4>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div>
+									<img src="../images/03.jpg">
+									<h4>最酷的事就是爱你</h4>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div>
+									<img src="../images/04.jpg">
+									<h4>最酷的事就是爱你</h4>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div>
+									<img src="../images/02.jpg">
+									<h4>最酷的事就是爱你</h4>
+								</div>
 							</div>
 						</div>
 						<div class="swiper-pagination swiper-pagination-white"></div>
@@ -190,18 +225,65 @@
 	                    <div class="swiper-button-prev"></div>
 					</div> 
 				</div>
+				<div class="row" style="background-image: url(../images/bg-happy.jpg); background-size: cover;">
+					<div class="col-lg-12">
+						<div class="text-center" style="color: #000; margin: 3em 0;">
+							<div class="join-us-wide">加入我们</div>
+						</div>
+						<div class="row" style="margin-bottom: 6em;">
+							<div id="location" class="col-lg-5 col-lg-offset-1 text-center">
+								<div id="mapdiv" style="height: 300px; border: 1px solid gray; overflow: hidden; position: relative; z-index: 0; background-color: rgb(243, 241, 236); color: rgb(0, 0, 0); text-align: left;"></div>
+							</div>
+							<div id="companyinfo" class="col-lg-4 text-center" style="margin-bottom: 2em;">
+	                            <div class="join-us-narrow">
+	                                	加入我们
+	                            </div>
+	                            <p class="contact">
+	                               	 公司：青岛幸福感网络科技有限公司<br>
+	                              	  电话：0532-58977388
+	                                <br>
+	                                	邮箱：3200771511@qq.cm
+	                                <br>
+	                                	微信：bole0532（伯乐0532）<br>
+	                               	 公众号：xingfu909090<br>
+	                                	地址：青岛市市南区银川西路67号 动漫产业园A座<br>
+	                            </p>
+	                            <a href="javascript:;">
+	                                <img src="../images/toudi.png">
+	                            </a>
+	                        </div>
+						</div>
+					</div>
+				</div>
+				<div class="row bom">
+					<div class="col-lg-6 bom_left">
+						<img src="../images/logo-bottom.png" alt="" />
+					</div>
+					
+					<div class="col-lg-6 bom_right">
+						<img src="../images/qrcode.jpg" alt="" />
+					</div>
+				</div>
+				<div class="row boms">
+					<div class="col-lg-12 text-center yangshi">
+						<a href="#" target="_blank" style="color: #666;">青岛幸福感网络科技有限公司 
+		            <br>
+		            Qingdao xingfugan network technology Co., Ltd.</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>
 </html>
 <!--<script src="../js/bootstrap.js"></script>-->
 <script src="../js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=DTRyKneihdzzXM02Mtj3aqzZUiGjxYHq"></script>
 <script src="../js/index.js"></script>
 <script src="../js/swiper-4.3.3.min.js"></script>
 <script>
 	var mySwiper = new Swiper(".swiper-container",{
+		slidesPerView: 4,
 		loop:true,
-		spaceBetween: 30,
 		centeredSlides: true,
 		autoplay: {
 	        delay: 2500,
