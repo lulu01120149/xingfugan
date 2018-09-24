@@ -639,7 +639,8 @@ body,html{
 		height: 744px;
 	}
 	.indexW .us{
-		width: 100%;
+		width: 85%;
+		margin: 0 auto;
 	}
 	.indexW .us .l{
 		width: 100%;
@@ -671,7 +672,7 @@ body,html{
 		width: 100%;
 	}
 	.indexF .footer .up .r img{
-		width: 280px;
+		width: 100%;
 		height: auto;
 	}
 	.indexF .footer .down{
