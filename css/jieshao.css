@@ -158,7 +158,7 @@ body,html{
 }
 @media (max-width: 550px){
 	.kch_nav_menu a {
-	    padding: 21px 15px;
+	    padding: 11px 15px;
 	}
 }
 
@@ -585,10 +585,12 @@ body,html{
 		height: 50.375rem;
 	}
 	.indexJ .jieshao{
-		width: 100%;
+		width: 90%;
+		margin: 0 auto;
 	}
 	.indexJ .jieshao .left{
 		width: 100%;
+		margin: 0 auto;
 	}
 	.indexJ .jieshao .right{
 		width: 100%;
@@ -604,7 +606,8 @@ body,html{
 		height: 43.3rem;
 	}
 	.indexM .team{
-		width: 100%;
+		width: 90%;
+		margin: 0 auto;
 	}
 	.indexM .team .left{
 		width: 100%;
@@ -647,28 +650,33 @@ body,html{
 		height: 344px;
 	}
 	.indexF{
-		height: 30rem;
+		height: 40rem;
 	}
 	.indexF .footer{
+		height: 30rem;
 		text-align: center;
 	}
 	.indexF .footer .up {
-		text-align: center;
+		height: 30rem;
+		margin: 0 auto;
 	}
 	.indexF .footer .up .l{
 		width: 100%;
-		
 	}
 	.indexF .footer .up .l img{
 		width: 100%;
-		height: 97px;
+		height: auto;
 	}
 	.indexF .footer .up .r{
 		width: 100%;
 	}
 	.indexF .footer .up .r img{
 		width: 280px;
-		height: 180px;
+		height: auto;
+	}
+	.indexF .footer .down{
+		width: 100%;
+		height: 10rem;
 	}
 }
 
