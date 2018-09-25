@@ -1,7 +1,6 @@
-$(".pad-trigger").toggle(
-	function() {
-		$('.kch_nav_menu').css({"display":'block','opacity':"1"})
+$(".pad-trigger").toggle(function() {
+		$('.kch_nav_menu').addClass('show')
 	},function(){
-		$('.kch_nav_menu').css({"display":'none', 'opacity':"0"})
+		$('.kch_nav_menu').removeClass('show')
 	}
 )
