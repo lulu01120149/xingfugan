@@ -105,12 +105,12 @@
     height: 50px;
     display: none;
 }
-@media (max-width: 550px){
+@media (max-width: 1200px){
 	.pad-trigger {
 	     display: block;
 	}
 }
-@media (max-width: 550px){
+@media (max-width: 1200px){
 	.kch_nav_menu {
 	    width: 50%;
 	    text-align: center;
