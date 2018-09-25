@@ -163,7 +163,64 @@
 	    padding: 10px 15px;
 	}
 }
-
+@media (max-width: 1200px){
+	.pad-trigger {
+	     display: block;
+	}
+}
+@media (max-width: 1200px){
+	.kch_nav_menu {
+	    width: 50%;
+	    text-align: center;
+	    right: 0;
+	    top: 55px;
+	    /*border: 1px solid #ccc;*/
+	    display: none;
+	    transition: all .8s;
+	}
+}
+@media (max-width: 1200px){
+	.kch_nav_menu > ul{
+		padding-left:0px;
+	}
+}
+@media (max-width: 1200px){
+	.kch_nav_menu > ul > li {
+	    background: rgba(1,1,1,0.75);
+	    height: 45px;
+	    line-height: 45px;
+	}
+}
+@media (max-width: 1200px){
+	.kch_nav_menu ul > li {
+	    display: list-item;
+	    list-style: none;
+	    border-bottom: 1px solid #ccc;
+	}
+}
+@media (max-width: 1200px){
+	.kch_nav_menu a {
+   	 	width: 100%;
+	    color: #fff;
+	    font-size: 1.25em;
+	    padding-top: 8px;
+	    padding-bottom: 8px;
+	    text-decoration: none;
+	}
+}
+@media (max-width: 1200px)
+.kch_nav_logo > a > img {
+    height: 55px;
+    margin-left: 15px;
+    padding-top: 4px;
+    padding-bottom: 30px;
+    width: 70%;
+}
+@media (max-width: 1200px){
+	.kch_nav_menu a {
+	    padding: 10px 15px;
+	}
+}
 /*视频*/
 .container-fluid{
 	padding-right: 15px;
