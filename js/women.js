@@ -46,8 +46,8 @@ initMap(); //创建和初始化地图
 
 $(".pad-trigger").toggle(
 	function() {
-		$('.kch_nav_menu').css({"display":'block','opacity':"1"})
+		$('.kch_nav_menu').addClass('active');
 	},function(){
-		$('.kch_nav_menu').css({"display":'none', 'opacity':"0"})
+		$('.kch_nav_menu').removeClass('active');
 	}
 )
