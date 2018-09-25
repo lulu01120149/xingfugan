@@ -22,7 +22,7 @@
                     display:inline-block;
                 content:"";
                 margin-right:5px;
-                width:.8em;
+                widtzh:.8em;
                 height:.8em;
                 background-color:#f83c6d;
                 }
@@ -39,7 +39,7 @@
     </style>
     <script src="../js/jquery-1.9.1.min.js"></script>
     <script src="../js/boot.js"></script>
-
+    <script src="../js/nav.js"></script>
     <script>
         $(function () {
             if ($(window).width() < 550)
@@ -346,7 +346,7 @@
         </div>
     </form>
     <script>
-    (function(){
+        (function(){
     class Nav{
         constructor(){
             this.nav();
@@ -354,7 +354,6 @@
         nav(){
             var self = this;
             $(".pad-trigger").on("click",function(){
-                console.log($(".pad-trigger"));
                 if(self.lock){
                     $(".kch_nav_menu").css("display","block");
                     self.lock = false;
@@ -366,6 +365,7 @@
         }
     }
     new Nav();
-})()</script>
+})()
+    </script>
 </body>
 </html>
