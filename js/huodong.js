@@ -3,6 +3,7 @@ $(function(){
 		constructor(){
 			this.number = 1;
 			this.shu = 0;
+			this.index;
 			this.lock = true;
 			this.data();
 			this.page();
@@ -59,12 +60,13 @@ $(function(){
 			})
 		}
 		page(){
+			var self = this;
 			$("#pager .num").on("click",function(e){
 				e.preventDefault();
-				var index = $(this).index() -2;
-				console.log(index);
+				self.index = $(this).index() -2;
+				console.log(self.index);
 				$(this).css("color",'red').siblings().css("color","#337ab7");
-				$(".huodong ul").eq(index).css("display","block").siblings().css("display","none");
+				$(".huodong ul").eq(self.index).css("display","block").siblings().css("display","none");
 			})
 		}
 		click(){
@@ -81,7 +83,7 @@ $(function(){
 			})
 			$(".prev").on("click",function(e){
 				e.preventDefault();
-				self.number --;
+				self.number --; 
 				if(self.number < 0){
 					self.number = 0;
 				}
